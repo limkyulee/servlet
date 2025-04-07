@@ -1,4 +1,4 @@
-# Study What is Servlet
+# Learning About Servlets
 
 servlet 및 mvc 기본 개념 학습
 
