@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
+//  FIXME : Spring MVC - 컨트롤러 통합
 @Controller
 @RequestMapping("/springmvc/v2/members")
 public class SpringMemberControllerV2 {
