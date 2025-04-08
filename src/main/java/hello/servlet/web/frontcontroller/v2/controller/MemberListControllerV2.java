@@ -16,6 +16,7 @@ public class MemberListControllerV2 implements ControllerV2 {
 
     @Override
     public MyView process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//      memberRepository 에서 저장된 전체 멤버 조회.
         List<Member> members = memberRepository.findAll();
         request.setAttribute("members", members);
 
